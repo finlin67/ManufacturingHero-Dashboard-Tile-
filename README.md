@@ -1,11 +1,35 @@
-<div align="center">
+# ManufacturingHero Dashboard Tile
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A high-performance, animated React component visualizing real-time factory metrics (OEE, Throughput, Savings). Extracted from a static design and enhanced with Framer Motion for smooth, data-driven interactions.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
+*   **React 18+**
+*   **TypeScript**
+*   **Tailwind CSS** (Utility-first styling)
+*   **Framer Motion** (Complex sequences and SVG path animations)
+*   **Lucide React** (Modern, consistent iconography)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Usage
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  Copy `components/ManufacturingHeroTile.tsx` into your project.
+2.  Ensure you have the required dependencies installed:
+    ```bash
+    npm install framer-motion lucide-react
+    ```
+3.  Import and use the component:
+    ```tsx
+    import ManufacturingHeroTile from './components/ManufacturingHeroTile';
 
-</div>
+    export default function Dashboard() {
+      return (
+        <div className="flex justify-center items-center h-screen bg-gray-900">
+          <ManufacturingHeroTile />
+        </div>
+      )
+    }
+    ```
+
+## Features
+*   **Self-Contained Styling:** Uses Tailwind arbitrary values to ensure the component looks identical in any project without custom config files.
+*   **SVG Data Visualization:** Animated bezier curves representing efficiency gains.
+*   **Interactive Elements:** Hover states on process steps and rigid layout stability.

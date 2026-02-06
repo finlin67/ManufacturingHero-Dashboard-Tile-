@@ -1,0 +1,5 @@
+{
+  "name": "ManufacturingHero Dashboard Tile",
+  "description": "A high-fidelity, animated sales enablement tile for a manufacturing dashboard, featuring SVG charts, floating elements, and Framer Motion interactions.",
+  "requestFramePermissions": []
+}
